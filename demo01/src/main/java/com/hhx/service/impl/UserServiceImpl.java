@@ -12,8 +12,13 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class UserServiceImpl implements IUserService {
+
     @Override
     public void add() {
+
+    }
+
+    public static void main(String[] args) {
 
     }
 }
