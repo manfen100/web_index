@@ -1,4 +1,4 @@
-package main
+package lesson10
 
 //简化导入包语句
 import . "fmt"
