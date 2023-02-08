@@ -1,4 +1,4 @@
-package lesson16
+package main
 
 import "sync/atomic"
 
