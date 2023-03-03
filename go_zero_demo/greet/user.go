@@ -3,9 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"go_zero_demo/user/internal/config"
-	"go_zero_demo/user/internal/handler"
-	"go_zero_demo/user/internal/svc"
+
+	"go_zero_demo/greet/internal/config"
+	"go_zero_demo/greet/internal/handler"
+	"go_zero_demo/greet/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"
