@@ -1,6 +1,8 @@
-package lesson17
+package main
 
-import "sync"
+import (
+	"sync"
+)
 
 type singleton struct {
 }

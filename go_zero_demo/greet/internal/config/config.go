@@ -11,5 +11,9 @@ type Config struct {
 		DataSource string
 	}
 
+	Mongo struct {
+		Datasource string
+	}
+
 	CacheRedis cache.CacheConf
 }

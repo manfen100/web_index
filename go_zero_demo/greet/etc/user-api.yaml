@@ -6,7 +6,14 @@ Timeout: 30000
 Mysql:
   DataSource: root:root@tcp(127.0.0.1:3306)/ruoyi-vue-pro?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
 
+Mongo:
+  DataSource: "mongodb://admin:123456-a@172.16.17.86:27020/?directConnection=true"
+  DataBase: "zhouchunyang"
+
+
+
 CacheRedis:
   - Host: 127.0.0.1:6379
     Pass: 123456
     Type: node
+
